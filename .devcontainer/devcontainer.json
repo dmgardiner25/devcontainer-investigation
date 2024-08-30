@@ -39,12 +39,6 @@
 	"updateRemoteUserUID": false,
 	//"onCreateCommand": "git config --global --add safe.directory '*' && direnv allow . && OUTPUT=$(cat .devcontainer/scripts/vscode-settings.sh) && devenv shell bash -- -c \"$OUTPUT\"",
 	//"postCreateCommand": "git config --global --add safe.directory '*' && direnv allow . && OUTPUT=$(cat .devcontainer/scripts/init-cli.sh) && devenv shell bash -- -c \"$OUTPUT\"",
-	// Adding host requirements so that there is no need to manually select the
-	// machine to run on all the time
-	"hostRequirements": {
-		"storage": "40gb",
-		"cpus": 4
-	},
 	"features": {
 		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
 		"ghcr.io/devcontainers/features/sshd:1": {
